@@ -1,20 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import reportWebVitals from './reportWebVitals';
 import './index.css';
-import App from './App';
-//import Navbar from './Navbar';
+
+import Navbar from './Navbar';
 import Home from './Home';
 //import Footer from './Footer';
-import reportWebVitals from './reportWebVitals';
-
-// const navbar = ReactDOM.createRoot(document.getElementById('navbar'));
-// const home = ReactDOM.createRoot(document.getElementById('root'));
-// navbar.render(<App />);
-// home.render(<Home />);
 
 ReactDOM.render(
   <>
-    <App />
+    <Navbar />
   </>,
   document.getElementById("navbar")
 );

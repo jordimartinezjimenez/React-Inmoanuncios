@@ -3,7 +3,7 @@ import React from "react";
 
 function template() {
   return (
-    <div className="footer">
+    <div className="Footer">
       <h1>Footer</h1>
     </div>
   );

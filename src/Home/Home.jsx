@@ -3,7 +3,7 @@ import React from "react";
 
 function template() {
   return (
-    <div className="home">
+    <div className="Home">
       <h1>Home</h1>
     </div>
   );
