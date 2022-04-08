@@ -1,0 +1,18 @@
+@import '~antd/dist/antd.css';
+
+#footer .Footer .footer{
+    background-color: #c8b7b7 !important;
+}
+
+.instagram, .twitter{
+    color: black;
+    margin-right: 10px;
+}
+
+.instagram:hover{
+    color: #d6249f;
+}
+
+.twitter:hover{
+    color: #00acee;
+}

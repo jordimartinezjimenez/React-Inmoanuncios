@@ -5,7 +5,7 @@ import './index.css';
 
 import Navbar from './Navbar';
 import Home from './Home';
-//import Footer from './Footer';
+import Footer from './Footer';
 
 ReactDOM.render(
   <>
@@ -19,6 +19,13 @@ ReactDOM.render(
     <Home />
   </>,
   document.getElementById("root")
+);
+
+ReactDOM.render(
+  <>
+    <Footer />
+  </>,
+  document.getElementById("footer")
 );
 
 // If you want to start measuring performance in your app, pass a function
